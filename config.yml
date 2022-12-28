@@ -1,0 +1,54 @@
+baseURL: https://adekmaulana.me
+languageCode: en-us
+title: Adek Maulana
+theme: "PaperMod"
+
+params:
+  homeInfoParams:
+    Title: Hi!
+    Content: My personal shits.
+
+  socialIcons: # optional
+    - name: "github"
+      url: "https://github.com/adekmaulana"
+    - name: "instagram"
+      url: "https://www.instagram.com/adek.maulana"
+    - name: "youtube"
+      url: "https://www.youtube.com/channel/AdekMaulana"
+    - name: "twitter"
+      url: "https://twitter.com/maulana_adek"
+  ShowReadingTime: true
+  author: "Adek Maulana"
+  contact: "adekzmaulana@gmail.com"
+  feedlinks: true
+  copyright: "<!--Creative Commons License-->This site is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).<!--/Creative Commons License-->"
+  mobileMenu: true
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # is necessary
+  section:
+    - HTML
+    - RSS
+    - JSON
+
+menu:
+  main:
+    - identifier: categories
+      name: Categories
+      url: /categories/
+      weight: 10
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 20
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 20
+    - identifier: archive
+      name: Archive
+      url: /archives/
+      weight: 20
