@@ -37,10 +37,6 @@
 
 This is a [HUGO](https://gohugo.io/) website template for [Logseq](https://logseq.com/#/) users who want their published posts to look more like a personal website, using [GitHub Pages](https://pages.github.com/) to host the website and [logseq-schrodinger](https://github.com/sawhney17/logseq-schrodinger) to export your Logseq pages.
 
-<p align="center">
-        <img src="./src/thanos_logseq_hugo.svg" style="width:50%"/>
-</p>
-
 ## Credits
 
 Credits to [Alex QWxleA](https://github.com/QWxleA) and [Aryan Sawhney](https://github.com/sawhney17) for inspiring this template.
