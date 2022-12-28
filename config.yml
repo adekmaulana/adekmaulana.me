@@ -19,7 +19,7 @@ params:
       url: "https://twitter.com/maulana_adek"
   ShowReadingTime: true
   author: "Adek Maulana"
-  contact: "adekzmaulana@gmail.com"
+  contact: "hi@adekmaulana.me"
   feedlinks: true
   copyright: "<!--Creative Commons License-->This site is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).<!--/Creative Commons License-->"
   mobileMenu: true
